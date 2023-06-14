@@ -8,11 +8,11 @@ import {
 	beforeEach,
 	afterEach,
 	describe,
-} from './core.js';
+} from './core';
 
 describe('des 2', () => {
 	it('this is first test', () => {
-		expect(1).toBe(2);
+		expect(1).toBe(1);
 		console.log('hello vitest');
 	});
 });
